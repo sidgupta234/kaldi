@@ -2,6 +2,7 @@
 
 current_path=`pwd`
 current_dir=`basename "$current_path"`
+MACOSX_DEPLOYMENT_TARGET=12.4
 
 if [ "tools" != "$current_dir" ]; then
     echo "You should run this script in tools/ directory!!"
